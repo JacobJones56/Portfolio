@@ -1,0 +1,90 @@
+body{
+    /* background-color: rgb(43, 101, 134); */
+  background: url(images/musicArt.jpg) no-repeat fixed top center;
+}
+
+p{
+  color: slateblue;
+}
+h2{
+  color: slateblue;
+}
+
+.contentWrapper{
+  margin: 0 auto;
+  max-width: 1170px;
+  padding: 0 3.0em;
+}
+
+.navBar{
+  color: #000;
+  font-size: 1.4em;
+  padding: 1.0em 1.0em 0.5em;
+  margin: 1.0em 0;
+  text-align: center;
+  background-color: lightblue;
+  /* -webkit-background-size: 100% 100%; */
+  /* -moz-background-size: 100% 100%; */
+  /* background-size: 100% 100%; */
+  /* -moz-background-size: 100% 100%; */
+ 
+}
+
+.navBar ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navBar li{
+  display: inline-block;
+  margin: 0;
+}
+
+.navBar li a, nav li a:visited{
+  text-decoration: none;
+  color: #2225c6;
+  padding: 0.3em 0.6em;
+}
+
+.navBar li a:hover{
+  color: #2225c6;
+  background-color: rgba(252,251,243,0.75);
+}
+
+.panel{
+  float: left;
+  position: relative;
+  width: 250px;
+  margin: 0 1.5em 2.0em 1.5em;
+  padding: 1.0em;
+  border: #ccc solid 1px;
+  border-radius: 0.6em;
+}
+
+footer{
+  background-color: lightblue;
+  height: 25px;
+  font-size: 1.2em;
+  color: slateblue;
+  text-align: center;
+  padding: 1.5em 2.0em;
+
+}
+div.clear{
+  clear: both;
+  font-size: 1%;
+}
+
+footer ul{
+  display: inline-block;
+  list-style: none;
+  margin: 0 0 0 0.6em;
+  padding: 0;
+}
+
+footer ul li{
+  display: inline-block;
+  padding: 0 0.7em 0 0;
+  margin: 0;
+}
